@@ -5,3 +5,7 @@ description: 'Compile vuepress projects'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+
+branding:
+  icon: 'align-center'  
+  color: 'blue'
