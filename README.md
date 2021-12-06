@@ -23,6 +23,23 @@ jobs:
         SOURCE_DIR: /
 ~~~
 
+If your project directory structure is as follow:
+~~~
+project
+├── docs
+├── package.json
+├── project1
+|   ├── docs
+|   └── package.json
+└── project2
+    ├── docs
+    └── package.json
+~~~
+
+You should set
+~~~yml
+SOURCE_DIR： / /project1 /project2
+~~~
 
 ### Parameters
 
