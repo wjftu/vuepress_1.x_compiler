@@ -1,6 +1,6 @@
 # action.yml
-name: 'vuepress_1.x_compiler'
-description: 'compile vuepress'
+name: 'Vuepress 1.x Compiler'
+description: 'Compile vuepress projects'
 
 runs:
   using: 'docker'
