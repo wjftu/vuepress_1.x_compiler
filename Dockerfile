@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:12
 
 LABEL "com.github.actions.name"="vuepress1.x_compiler"
 LABEL "author"="Jianfeng"
