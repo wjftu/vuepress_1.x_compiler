@@ -1,4 +1,4 @@
-FROM node:14-slim
+FROM node:14
 
 LABEL "com.github.actions.name"="vuepress1.x_compiler"
 LABEL "author"="Jianfeng"
